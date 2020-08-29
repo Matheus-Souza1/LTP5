@@ -1,0 +1,4 @@
+D:\dev\LTP5\LTP5_OOP\LTP5_OOP\obj\Debug\LTP5_OOP.csprojAssemblyReference.cache
+D:\dev\LTP5\LTP5_OOP\LTP5_OOP\obj\Debug\LTP5_OOP.Form1.resources
+D:\dev\LTP5\LTP5_OOP\LTP5_OOP\obj\Debug\LTP5_OOP.Properties.Resources.resources
+D:\dev\LTP5\LTP5_OOP\LTP5_OOP\obj\Debug\LTP5_OOP.csproj.GenerateResource.cache
