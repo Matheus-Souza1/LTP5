@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace LTP5_OOP.Entity
 {
-    class Veiculos
+   public abstract class Base
     {
+        public abstract double CalcularArea { get;  }
     }
 }

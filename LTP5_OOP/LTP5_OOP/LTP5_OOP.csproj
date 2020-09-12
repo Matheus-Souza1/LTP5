@@ -46,16 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Entity\Base.cs" />
+    <Compile Include="Entity\Quadrado.cs" />
+    <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNovo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNovo.Designer.cs">
+      <DependentUpon>FrmNovo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSalvar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalvar.Designer.cs">
+      <DependentUpon>FrmSalvar.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNovo.resx">
+      <DependentUpon>FrmNovo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalvar.resx">
+      <DependentUpon>FrmSalvar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

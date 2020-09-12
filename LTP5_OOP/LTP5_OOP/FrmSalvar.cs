@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace LTP5_OOP
 {
-    public partial class Form1 : Form
+    public partial class FrmSalvar : Form
     {
-        public Form1()
+        public FrmSalvar()
         {
             InitializeComponent();
-
         }
 
-        private void btnClickThis_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            Text = "Hello World!";
+
         }
     }
 }
